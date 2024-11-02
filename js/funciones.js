@@ -1,5 +1,5 @@
 
-const url = "../productos.json";
+const url = "/productos.json";
 
 fetch(url)
     .then(respuesta => respuesta.json())
