@@ -1,5 +1,5 @@
 
-const url = "./productos.json";
+const url = "productos.json";
 
 fetch(url)
     .then(respuesta => respuesta.json())
@@ -13,7 +13,7 @@ function mostrarProductos(datos) {
     datos.forEach(item => {     
         contenidoHTML += `<div class="col-md-4 mt-3">
              <div class="card h-100 border-0 mb-3 text-center">
-                <a href="/pages/producto.html" class="text-dark text-decoration-none" onclick="guardarIdProducto(${item.idProducto})">
+                <a href="./pages/producto.html" class="text-dark text-decoration-none" onclick="guardarIdProducto(${item.idProducto})">
                       <img src="${item.imagenProducto}" class="img-fluid" alt="${item.nombreProducto}">
                       <div class="card-body">
                           <p class="card-text fs-5">${item.nombreProducto}<br><b>$${item.precioProducto}</b></p>
