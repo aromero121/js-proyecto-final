@@ -1,0 +1,3 @@
+renderHeader();
+renderFooter();
+renderCarrito();

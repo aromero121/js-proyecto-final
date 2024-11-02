@@ -1,0 +1,4 @@
+renderHeader();
+renderFooter();
+renderProducto();
+renderBotonCarrito();

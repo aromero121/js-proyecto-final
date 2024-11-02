@@ -1,0 +1,12 @@
+header {
+    height: 10vh;
+    background: #FF3C3C;
+    top: 0;
+    position: sticky;
+    border: 1px solid white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
