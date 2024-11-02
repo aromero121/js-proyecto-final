@@ -1,4 +1,4 @@
-let urlProductos = "/productos.json";
+let urlProductos = "productos.json";
 const productosTienda = [];
 
 
